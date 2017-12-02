@@ -1,0 +1,21 @@
+package: github.com/simukti/grpc-password
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: github.com/hashicorp/go-memdb
+- package: github.com/rs/xid
+- package: golang.org/x/crypto
+  subpackages:
+  - bcrypt
+  - blake2b
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/grpc
+- package: github.com/go-sql-driver/mysql
+  version: ~1.3.0
+- package: github.com/gocraft/dbr
+- package: github.com/GuiaBolso/darwin
+- package: github.com/gogo/protobuf
+  version: ^0.5.0
